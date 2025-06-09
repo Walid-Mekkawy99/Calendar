@@ -14,17 +14,12 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/walid-mekkawys-projects-1258eb24/v0-calendar-app](https://vercel.com/walid-mekkawys-projects-1258eb24/v0-calendar-app)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/0DP0m0MBaH2](https://v0.dev/chat/projects/0DP0m0MBaH2)**
+**https://calendar-psi-lake.vercel.app/**
 
 ## How It Works
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. Clone the repository:
+   ```sh
+   1- git clone https://github.com/Walid-Mekkawy99/Calendar.git
+   2- npm install
+   3- npm run dev
