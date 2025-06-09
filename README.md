@@ -1,25 +1,45 @@
-# Calendar App
+# 📅 Calendar App
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Live Demo: https://calendar-psi-lake.vercel.app/
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/walid-mekkawys-projects-1258eb24/v0-calendar-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/0DP0m0MBaH2)
+---
 
-## Overview
+## 🧠 Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Calendar App is a simple, interactive calendar built with **Next.js**. It allows users to:
+- Select a day from the calendar.
+- Add reminders/events with custom **date and time**.
+- Edit or delete existing reminders.
+- Manage daily schedules through a responsive and modern UI.
 
-## Deployment
+---
 
-Your project is live at:
+## ⚙️ Tech Stack
 
-**https://calendar-psi-lake.vercel.app/**
+- **Frontend Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: Tailwind CSS
+- **Libraries**:
+  - [`react-day-picker`](https://react-day-picker.js.org/) for date selection
+  - Local state or Context API for state management
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## How It Works
+---
 
-1. Clone the repository:
-   ```sh
-   1- git clone https://github.com/Walid-Mekkawy99/Calendar.git
-   2- npm install
-   3- npm run dev
+## 🚀 Getting Started
+
+To run this project locally:
+- git clone https://github.com/your-username/your-repo-name.git
+- cd your-repo-name
+- npm install
+- npm run dev
+
+---
+## 🔧 Features
+
+- 📅 Interactive calendar with day selection.
+- 🕒 Add, edit, and delete reminders with custom time.
+- ⚡ Built with **Next.js** for fast performance and routing.
+- 💨 Styled using **Tailwind CSS** for a clean, responsive UI.
+- 🔄 Live updates without page reload (CSR behavior where needed).
+- 🧠 Simple state management with built-in React tools.
+- 🌐 Deployed on **Vercel** with automatic CI/CD.
