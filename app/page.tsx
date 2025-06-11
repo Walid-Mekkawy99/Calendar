@@ -17,7 +17,6 @@ import {
   Sparkles,
   X,
 } from "lucide-react"
-
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false)
   const [showAIPopup, setShowAIPopup] = useState(false)
@@ -284,10 +283,11 @@ export default function Home() {
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop"
+        // src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop"
+        src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=2070&auto=format&fit=crop"
         alt="Beautiful mountain landscape"
         fill
-        className="object-cover"
+        className="object-cover brightness-50 contrast-125 saturate-100"
         priority
       />
 
